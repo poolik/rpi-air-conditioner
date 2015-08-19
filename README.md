@@ -18,7 +18,7 @@ sudo make install
 #### Usage:
 ```
 sudo mitsu <temp> <on> <operation>
-        <temp> = 16, ... 31
+        <temp> = 10, 16 ... 31
         <on> = 1=ON | 0=OFF
         <operation> = 0=HEATING | 1=COOLING
 ```

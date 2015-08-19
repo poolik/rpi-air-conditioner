@@ -164,8 +164,14 @@ void setTemperature(unsigned char temp) {
     if (DEBUG) {
         printf("Temperature: %d\n", temp);
     }
-    temp = (temp - 16) & 0xf;
-    template[TEMP] = temp;
+    if (temp == 10) {
+        template[TEMP] = 0;
+        template[TEMP2] = 32;
+    }
+    else {
+        temp = (temp - 16) & 0xf;
+        template[TEMP] = temp;
+    }
 }
 
 void setTimeAndDate() {

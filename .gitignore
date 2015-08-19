@@ -72,6 +72,7 @@
 # mpeltonen/sbt-idea plugin
 .idea_modules/
 
+CMakeLists.txt
 # JIRA plugin
 atlassian-ide-plugin.xml
 

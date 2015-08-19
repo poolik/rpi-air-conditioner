@@ -14,6 +14,7 @@
 
 // position of interesting values within byte array
 #define TEMP    7
+#define TEMP2   15 // used when setting temp to 10 deg.
 #define TIME   10
 #define DAY    14
 #define ON_OFF  5
