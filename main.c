@@ -23,7 +23,10 @@ int main(int argc, char *argv[]) {
     }
 
     send(temp, on, operation);
-
+    //delay(700);
+    send(temp, on, operation);
+    //delay(700);
+    send(temp, on, operation);
     printf("Command sent.\n");
 
     return 0;
